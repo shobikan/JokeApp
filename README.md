@@ -1,16 +1,43 @@
-# my_app
+# Jokes App
 
-A new Flutter project.
+A Flutter application that fetches and displays jokes. This app demonstrates the use of state management, animations, and custom widgets in Flutter.
+
+## Features
+
+- **Fetch Jokes**: Fetches jokes from a remote API.
+- **Cache Jokes**: Caches jokes for offline access.
+- **Custom AppBar**: A custom AppBar with gradient background 
+- **Loading Indicator**: Displays a loading indicator while fetching jokes.
+- **Empty State**: Shows an empty state message when no jokes are available.
+- **Error Handling**: Handles errors gracefully and displays appropriate messages.
+- **Responsive UI**: Adapts to different screen sizes and orientations.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK: [Install Flutter](https://flutter.dev/docs/get-started/install)
+- Dart SDK: Included with Flutter
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/shobikan/JokeApp.git
+   cd my_app
+   ```
+
+## Project Structure
+
+```
+jokes_app/
+├── lib/
+│   ├── main.dart         # Entry point of the application
+│   ├── screens/          # UI screens for displaying jokes
+│   ├── widgets/          # Custom reusable widgets
+│   ├── services/         # API service and local caching logic
+│   └── models/           # Data models for jokes
+├── pubspec.yaml          # Project dependencies and metadata
+└── README.md             # Project documentation
+```
+
